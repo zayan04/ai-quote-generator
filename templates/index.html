@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Quote Generator</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <span class="tag">✦ BUILT BY MOHD ZAYAN</span>
+
+        <!-- Heading and Theme Button -->
+        <div class="heading-row">
+
+            <h1>AI Quote Generator</h1>
+
+            <button id="themeToggle" type="button">
+                ☀️ Light
+            </button>
+
+        </div>
+
+        <p class="subtitle">
+            Generate inspiring quotes using my trained GPT-2 model.
+        </p>
+
+        <!-- Prompt Form -->
+        <form id="quoteForm">
+
+            <label for="prompt">Enter your prompt</label>
+
+            <textarea
+                id="prompt"
+                placeholder="Example: Success is..."
+                maxlength="500"
+                required
+            ></textarea>
+
+            <button type="submit" id="generateBtn">
+                ✨ Generate Quote
+            </button>
+
+        </form>
+
+        <!-- Status Message -->
+        <p id="statusMessage" role="status"></p>
+
+        <!-- Generated Quote -->
+        <section class="result-card">
+
+            <h2>✧ Generated Quote</h2>
+
+            <p id="generatedQuote">
+                Your generated quote will appear here...
+            </p>
+
+            <button type="button" id="copyBtn" disabled>
+                Copy Quote
+            </button>
+
+        </section>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

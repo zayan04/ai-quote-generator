@@ -1,0 +1,11 @@
+Programming is a skill that becomes easier with regular practice. Learning C++ helps beginners understand programming fundamentals such as variables, data types, conditions, loops, functions, and object-oriented programming.
+Web development is used to create websites and web applications.
+HTML provides the structure of a webpage. CSS is used to style the webpage, while JavaScript adds behavior and interactivity.
+Machine learning allows computers to learn patterns from data and use those patterns to make predictions.
+Artificial intelligence is changing many areas of technology.
+A beginner should focus on understanding concepts instead of memorizing code.
+Regular practice is one of the most important parts of learning programming.
+Building small projects helps programmers apply what they have learned.
+Git and GitHub are commonly used to manage and share source code.
+Database management is an important part of modern software development.
+Software developers solve problems by breaking large problems into smaller and manageable parts.
