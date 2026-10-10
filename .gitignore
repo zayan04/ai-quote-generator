@@ -3,4 +3,9 @@ __pycache__/
 *.py[cod]
 .env
 gpt2-quote-model/
-gpt2-quote-model-v2/
+gpt2-quote-model-v2/*
+!gpt2-quote-model-v2/config.json
+!gpt2-quote-model-v2/generation_config.json
+!gpt2-quote-model-v2/model.safetensors
+!gpt2-quote-model-v2/tokenizer.json
+!gpt2-quote-model-v2/tokenizer_config.json
